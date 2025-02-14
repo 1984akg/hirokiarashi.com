@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile - Hiroki Arashi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+83Jm8Y6X8/79dKIR72z1lH4" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #5f6c7b;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .profile-sidebar {
+      flex: 1 1 250px;
+      max-width: 300px;
+      text-align: center;
+      padding: 20px;
+    }
+    .profile-sidebar img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    .profile-sidebar a {
+      display: block;
+      color: #333;
+      margin: 10px 0;
+      text-decoration: none;
+    }
+    .profile-sidebar a:hover {
+      text-decoration: underline;
+    }
+    .profile-content {
+      flex: 3 1 500px;
+      padding: 20px;
+    }
+    .profile-content h2 {
+      border-bottom: 2px solid #5f6c7b;
+      padding-bottom: 5px;
+    }
+    .profile-content ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .profile-content ul li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .profile-content, .profile-sidebar {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hiroki Arashi</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="profile-sidebar">
+      <img src="https://via.placeholder.com/150" alt="Hiroki Arashi" />
+      <a href="https://github.com/your_github"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/your_linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:your_email@example.com"><i class="fas fa-envelope"></i> your_email@example.com</a>
+    </div>
+    <div class="profile-content">
+      <h2>About Me</h2>
+      <p>Hiroki is currently pursuing a Bachelor's degree in Medicine at Nara Medical University (JP). He completed a Master of Arts at Heidelberg University, and his master's thesis focused on the exchange of Japanese and French films in the 1960s.</p>
+      <p>He is interested in psychiatry, particularly psychopathology and the application of artificial intelligence in this field.</p>
+      
+      <h2>Strengths</h2>
+      <ul>
+        <li>Medicine, especially psychiatry</li>
+        <li>Humanities, especially film studies</li>
+        <li>Data Science, especially artificial intelligence</li>
+      </ul>
+      
+      <h2>Education</h2>
+      <ul>
+        <li><strong>April 2015 – March 2017:</strong> University of Tokyo, College of Arts and Sciences, Science Program (Category II)</li>
+        <li><strong>April 2017 – March 2020:</strong> University of Tokyo, Faculty of Letters, Department of Language and Culture, Specialization in French Literature (Advisor: Kan Nozaki)</li>
+        <li><strong>August 2018 – June 2019:</strong> Stockholm University, Faculty of Film Studies</li>
+        <li><strong>April 2020 – March 2022:</strong> Kyoto University, Graduate School of Letters, International Collaborative Cultural Studies (Advisor: Mitsuyo Wada Marusiano)</li>
+        <li><strong>April 2020 – March 2022:</strong> Heidelberg University, Graduate School of Transcultural Studies (Advisor: Monica Juneja)</li>
+        <li><strong>April 2023 – Present:</strong> Nara Medical University, School of Medicine</li>
+      </ul>
+      
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>April 2022 – April 2023:</strong> The Japan Foundation (General Position)</li>
+        <li><strong>April 2024 – Present:</strong> University of Tokyo, Matsuo Laboratory (Lecturer / Teaching Assistant)</li>
+        <li><strong>April 2024 – Present:</strong> Tōshin Eisei Prep School (Answer Key Coordinator)</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Hiroki Arashi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
