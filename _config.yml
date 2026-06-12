@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Medical Student & Data Scientist"
   location         : "Japan"
-  employer         : "School of Medicine, Nara Medical University"
+  employer         : # Organization shown in the sidebar
   uri              : # URL
   email            : "hiroki.arashi@weblab.t.u-tokyo.ac.jp"
 
