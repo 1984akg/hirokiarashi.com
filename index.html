@@ -3,172 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hiroki ARASHI</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+83Jm8Y6X8/79dKIR72z1lH4" crossorigin="anonymous">
-  <style>
-    :root {
-      color-scheme: light;
-      --ink: #2d3648;
-      --muted: #6b7280;
-      --accent: #5b6b85;
-      --accent-soft: #e9edf5;
-      --surface: #ffffff;
-      --surface-alt: #f6f7fb;
-      --border: #e2e8f0;
-      --shadow: 0 24px 60px rgba(22, 34, 51, 0.08);
-    }
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: var(--ink);
-      line-height: 1.7;
-      letter-spacing: 0.01em;
-    }
-    header {
-      background-color: var(--surface);
-      padding: 18px 28px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: var(--ink);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.3rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-    nav a {
-      color: var(--ink);
-      text-decoration: none;
-      margin-left: 18px;
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-    nav a:first-child {
-      margin-left: 0;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    main {
-      padding: 80px 20px 120px;
-    }
-    .intro {
-      max-width: 760px;
-      margin: 0 auto;
-      text-align: center;
-      padding: 56px 48px;
-      background: var(--surface-alt);
-      border-radius: 24px;
-      box-shadow: var(--shadow);
-      border: 1px solid var(--border);
-    }
-    .intro h2 {
-      margin-top: 0;
-      font-size: 2rem;
-      line-height: 1.35;
-    }
-    .intro p {
-      color: var(--muted);
-    }
-    .intro a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 26px;
-      padding: 12px 28px;
-      background-color: var(--accent);
-      color: white;
-      text-decoration: none;
-      border-radius: 999px;
-      font-weight: 600;
-      box-shadow: 0 10px 20px rgba(91, 107, 133, 0.25);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .intro a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 14px 30px rgba(91, 107, 133, 0.28);
-    }
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        gap: 10px;
-        padding: 16px 18px;
-      }
-      header h1 {
-        font-size: 1.1rem;
-      }
-      nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-      nav a {
-        margin-left: 0;
-        font-size: 0.92rem;
-      }
-      main {
-        padding: 40px 14px 72px;
-      }
-      .intro {
-        padding: 32px 20px;
-        border-radius: 18px;
-      }
-      .intro h2 {
-        font-size: 1.5rem;
-      }
-    }
-    @media (max-width: 420px) {
-      .intro h2 {
-        font-size: 1.35rem;
-      }
-      .intro a {
-        width: 100%;
-      }
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+  <title>Hiroki Arashi</title>
+  <meta name="description" content="Hiroki Arashi — medical student and data scientist working at the intersection of psychiatry, AI, and the humanities." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>
-    <h1>Hiroki ARASHI</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="profile.html">Profile</a>
-    </nav>
+  <header class="masthead">
+    <div class="masthead__inner">
+      <a class="masthead__title" href="index.html">Hiroki Arashi</a>
+      <nav>
+        <a href="index.html" class="active">About</a>
+        <a href="cv.html">CV</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <section class="intro">
-      <h2>Welcome to Hiroki ARASHI's Website</h2>
-      <p>I am a medical student with a Master’s degree in the humanities from Heidelberg University.</p>
-      <p>My interests lie at the intersection of medicine (especially psychiatry), AI / data science, and the humanities.</p>
-      <p>I aim to contribute to the realization of <strong>human-centered healthcare</strong> </p>
-      <p>  by combining the insights and values of the humanities with the power of AI and data-driven technologies.</p>
-      <p>This website provides a brief introduction about my background.</p>
-      <p><a href="profile.html">View My Profile</a></p>
-    </section>
-  </main>
-<!--   <footer>
-    <p>&copy; 2025 Hiroki Arashi. All rights reserved.</p>
-  </footer> -->
+
+  <div class="layout">
+    <aside class="sidebar">
+      <img class="portrait" src="images/IMG_4775.jpg" alt="Portrait of Hiroki Arashi" />
+      <h2>Hiroki Arashi</h2>
+      <p class="tagline">Medical Student &amp; Data Scientist<br>School of Medicine, Nara Medical University<br>Japan</p>
+      <ul class="contact">
+        <li><a href="mailto:hiroki.arashi@weblab.t.u-tokyo.ac.jp"><i class="fas fa-envelope"></i> hiroki.arashi@weblab.t.u-tokyo.ac.jp</a></li>
+        <li><a href="https://github.com/1984akg" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://www.kaggle.com/hirokiarashi" target="_blank" rel="noopener"><i class="fab fa-kaggle"></i> Kaggle</a></li>
+        <li><a href="https://www.linkedin.com/in/%E5%A4%A7%E6%A8%B9-%E5%B5%90-706193218/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://x.com/comment_ca_va_?s=21&t=05XypF7KMQZmoXNm3WDG3A" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h1>About Me</h1>
+      <p class="lede">Working toward human-centered healthcare at the intersection of medicine, AI, and the humanities.</p>
+
+      <p>I am a medical student at <strong>Nara Medical University</strong> with a Master's degree in Transcultural Studies jointly awarded by <strong>Heidelberg University</strong> and <strong>Kyoto University</strong>. My interests lie at the intersection of <strong>medicine (especially psychiatry)</strong>, <strong>AI / data science</strong>, and <strong>the humanities</strong>.</p>
+
+      <p>Alongside my medical studies, I work as a data scientist and lecturer / teaching assistant at the <strong>Matsuo Institute</strong> and the <strong>University of Tokyo Matsuo Laboratory</strong>, and as a research assistant at the <strong>Department of Psychiatry, Nara Medical University</strong>, where I develop LLM-based tools for psychotherapy training and medical text structuring. From October 2026, I will join the <strong>Department of Psychiatry and Neurosciences at Charité – Universitätsmedizin Berlin</strong> as a visiting research intern.</p>
+
+      <p>I aim to contribute to the realization of <strong>human-centered healthcare</strong> by combining the insights and values of the humanities with the power of AI and data-driven technologies.</p>
+
+      <h2><i class="fas fa-flask"></i>Research Interests</h2>
+      <p>My current work centers on applying large language models to psychiatry and mental healthcare — from training tools for psychotherapy to safety evaluation of AI systems in clinical contexts.</p>
+      <ul class="tags">
+        <li>Psychiatry</li>
+        <li>Mental Health × AI</li>
+        <li>Large Language Models</li>
+        <li>Natural Language Processing</li>
+        <li>Medical Ontology</li>
+        <li>Social Prescribing</li>
+        <li>Medical Humanities</li>
+        <li>Transcultural Studies</li>
+      </ul>
+
+      <h2><i class="fas fa-bullhorn"></i>News</h2>
+      <ul class="news">
+        <li><span class="date">Oct 2026</span><span>Joining the Department of Psychiatry and Neurosciences, Charité – Universitätsmedizin Berlin, as a Visiting Research Intern.</span></li>
+        <li><span class="date">Jun 2026</span><span>Awarded a research grant from the HUMAI Program (¥350,000).</span></li>
+        <li><span class="date">May 2026</span><span>Co-authored presentation at the International Social Prescribing Conference 2026 (ISPC 2026).</span></li>
+        <li><span class="date">Apr 2026</span><span>Started as a Research Intern at Nara Institute of Science and Technology (NAIST) and as a Lecturer / Teaching Assistant at the Matsuo Institute.</span></li>
+        <li><span class="date">Mar 2026</span><span>Presented at HUMAI Spring Camp 2026 and co-presented at the 6th Annual Meeting of the Japanese Association for Social Relations (JASR2026).</span></li>
+        <li><span class="date">Feb 2026</span><span>Joined the Matsuo Institute as a Data Scientist; awarded a research grant from FOST (¥150,000).</span></li>
+        <li><span class="date">Sep 2025</span><span>Presented a poster on LLM-based tagging of medical texts at the HUMAI Program Poster Session.</span></li>
+        <li><span class="date">Jul 2025</span><span>Started as a Research Assistant at the Department of Psychiatry, Nara Medical University.</span></li>
+        <li><span class="date">Jun 2025</span><span>Co-authored presentation at the 121st Annual Meeting of the Japanese Society of Psychiatry and Neurology.</span></li>
+      </ul>
+
+      <h2><i class="fas fa-compass"></i>Explore</h2>
+      <p>Learn more about my background, research output, and ongoing work:</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="cv.html"><i class="fas fa-file-lines"></i> Curriculum Vitae</a>
+        <a class="btn" href="publications.html"><i class="fas fa-book-open"></i> Publications &amp; Talks</a>
+        <a class="btn" href="projects.html"><i class="fas fa-diagram-project"></i> Projects</a>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div>
+      <a href="https://github.com/1984akg" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.kaggle.com/hirokiarashi" target="_blank" rel="noopener" aria-label="Kaggle"><i class="fab fa-kaggle"></i></a>
+      <a href="https://www.linkedin.com/in/%E5%A4%A7%E6%A8%B9-%E5%B5%90-706193218/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/comment_ca_va_?s=21&t=05XypF7KMQZmoXNm3WDG3A" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+      <a href="mailto:hiroki.arashi@weblab.t.u-tokyo.ac.jp" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2026 Hiroki Arashi. All rights reserved.</p>
+  </footer>
 </body>
 </html>
