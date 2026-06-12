@@ -123,6 +123,10 @@ a:hover {
   align-items: start;
 }
 
+.layout--home {
+  padding-bottom: 32px;
+}
+
 /* Sidebar -------------------------------------------------------------- */
 
 .sidebar {
