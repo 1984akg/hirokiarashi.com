@@ -1,21 +1,20 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 author_profile: true
 redirect_from:
+  - /publications/
   - /publications.html
+  - /talks/
+  - /talks.html
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Publications, grouped by category -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -34,5 +33,8 @@ redirect_from:
   {% endfor %}
 {% endif %}
 
-
-
+<!-- Talks and presentations -->
+<h2>Talks and Presentations</h2><hr />
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

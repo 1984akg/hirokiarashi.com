@@ -13,4 +13,4 @@ My interests lie at the intersection of **medicine (especially psychiatry)**, **
 
 I aim to contribute to the realization of **human-centered healthcare** by combining the insights and values of the humanities with the power of AI and data-driven technologies.
 
-This website provides a brief introduction about my background. Please see my [CV]({{ site.baseurl }}/cv/), [Publications]({{ site.baseurl }}/publications/), [Talks]({{ site.baseurl }}/talks/), and [Projects]({{ site.baseurl }}/portfolio/) for more details.
+This website provides a brief introduction about my background.
