@@ -13,7 +13,6 @@ redirect_from:
 
 Education
 ======
-* **October 2026 – Present:** Charité – Universitätsmedizin Berlin, Department of Psychiatry and Neurosciences, Visiting Research Intern
 * **April 2023 – Present:** Nara Medical University, School of Medicine (GPA 4.0)
 * **January 2025 – March 2025:** Waseda University, Asahi Lab, Research Clerkship
 * **April 2020 – March 2022:** Heidelberg University, Faculty of Philosophy, Transcultural Studies (Supervisor: Monica Juneja) (GPA 4.0)
@@ -36,6 +35,7 @@ Work experience
 Funding
 ======
 * **June 2026 – March 2027:** Research grant provided by the HUMAI Program (350,000 yen)
+* **April 2026 – March 2027:** Scholarship awarded by the G-7 Scholarship Foundation (960,000 yen)
 * **February 2026 – March 2027:** Research grant provided by FOST (150,000 yen)
 * **August 2025 – March 2026:** Research grant provided by the HUMAI Program (280,000 yen)
 * **April 2025 – March 2029:** Scholarship awarded by the Vertex Green Foundation for human resource development (2,400,000 yen)
