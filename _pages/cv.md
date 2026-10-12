@@ -47,6 +47,7 @@ Funding
 
 Awards
 ======
+* **August 2026:** Sponsor Award (Retrieva Award) at the 21st YANS Symposium (YANS 2026)
 * **March 2024:** Outstanding Completion Award at GCI 2023 Winter
 * **December 2023:** Winner of the Competition 2 at GCI 2023 Winter
 * **August 2023:** AI Award at MAP Hackathon
@@ -62,6 +63,7 @@ Skills
 * Deep Learning (PyTorch)
 * Natural Language Processing and LLMs (Hugging Face, prompt engineering, RAG, fine-tuning)
 * AI Agent (LangGraph)
+* LLM Safety and Security Evaluation (safety benchmark construction, prompt-injection robustness testing)
 
 Certifications
 ======
