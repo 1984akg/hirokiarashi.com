@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a medical student at Nara Medical University and a data scientist. My work sits at the intersection of **psychiatry**, **AI and natural language processing**, and **the humanities**.
+I am a medical student at Nara Medical University and a data scientist. My interests lie at the intersection of **medicine**, **AI and natural language processing**, and **the humanities**.
 
-I came to medicine from the humanities because I wanted a profession in which clinical practice and research go together. Within medicine, I chose psychiatry and language AI: psychiatry is the field where language is the primary clinical instrument, which makes it a natural place to apply language technology. My current work includes LLM-based training tools for psychotherapy and safety benchmarks for mental health AI.
+I came to medicine from the humanities because I wanted a profession in which clinical practice and research go together. Within medicine, I am interested in psychiatry and in medical informatics, including the digital and AI transformation of healthcare more broadly.
 
-My training in literature and cultural studies taught me to attend to what is said, what is left unsaid, and how culture shapes both. I hope to bring that perspective, together with AI, to **human-centered healthcare**.
+Natural language processing handles language with computers; literature and the humanities work with language itself; and psychiatry, like medicine at large, is full of language—the interview, the diagnosis, the record. Language is the thread that runs through my path, and I hope to follow it toward **human-centered healthcare**.
